@@ -33,7 +33,7 @@ Build with:<br>
 	 -->
 # E-commerce
 <div dir='rtl'><strong >minimal-cartshop-commerce</strong> در این پروژه  که نمونه سایت فروشگاهی کوچک است 11 صفحه و 96 محصول با داده های اساتیک وجود دارد از قابلیت های سایت داشتن صفحه لاگین و سبد خرید به صورت کاملا کاربردی است و از هوکهای useState,useEffect,useContext  در این پروژه بیشترین استفاده شده است.</div>
-<div dir='rtl' style="color:red;">بیشتر بر ریکت توجه شده به همین دلیل از placeholder image  به جای عکس واقعی استفاده کرده ام.</div>
+⚠️<div dir='rtl' style="color:red;">بیشتر بر ریکت توجه شده به همین دلیل از placeholder image  به جای عکس واقعی استفاده کرده ام.</div>
 👉 Live Demo: <a href='https://safardost-hosein.github.io/minimal-cartshop-commerce/'>E-commerce</a><br>  
 
 Build with:<br>	
@@ -53,13 +53,13 @@ Build with:<br>
 
 <br><br>
 
-<h3 align='center'>cart Page </h3>
+<h3 align='center'>cart Page 🎁</h3>
 
 <div align='center'>
 <img src='https://github.com/safardost-hosein/minimal-cartshop-commerce/assets/134488087/13189ca9-9a6b-466e-9c98-7eadfffa4cab'/>
 </div>
 
-<h3 align='center'>login Page </h3>
+<h3 align='center'>login Page 🆔</h3>
 
 <div align='center'>
 <img src='https://github.com/safardost-hosein/minimal-cartshop-commerce/assets/134488087/7adbb56e-6832-4e04-ad16-782fc5ea51b8'/>
