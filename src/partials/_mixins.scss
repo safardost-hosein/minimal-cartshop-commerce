@@ -1,0 +1,17 @@
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top:0;
+    width: 50vw;
+    height: 100vh;
+    background-color:#242424;
+    transition: all 1s ease;
+}

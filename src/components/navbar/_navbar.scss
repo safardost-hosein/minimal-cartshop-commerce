@@ -1,0 +1,125 @@
+@import "../../partials/config";
+@import "../../partials/mixins";
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 250;
+  width: 100vw;
+
+  .nav-bar {
+    height: 12vh;
+
+    @include flex-center;
+    flex-wrap: wrap;
+    background-color: $-color-primary;
+    .logo {
+      flex: 20%;
+      height: 8vh;
+      display: flex;
+      align-items: center;
+    }
+    .nav-signIn {
+      flex: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      button {
+        position: relative;
+
+        i[class*="with-items"]:after {
+          position: absolute;
+          left: -10%;
+          top: -60%;
+          content: "+" attr(data-array-length);
+          background-color: $-color-accent;
+          font-size: 110%;
+          padding: 0.4em;
+          border-radius: 999px;
+          line-height: 0.75em;
+          color: #000;
+          text-align: center;
+          font-weight: bold;
+          border-radius: 50%;
+        }
+      }
+      #bars {
+        display: none;
+      }
+    }
+    .nav-items {
+      flex: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+    }
+    .nav-btn {
+      flex: 1;
+      @include flex-center;
+      margin-right: 20px;
+      z-index: 200;
+
+      ul {
+        display: flex;
+        li {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    .nav-bar {
+      @include flex-center;
+
+      .logo {
+        flex: 25%;
+      }
+      .nav-signIn {
+        flex: 70%;
+        #bars {
+          display: block;
+        }
+      }
+      .nav-items {
+        position: relative;
+        i {
+          font-size: 40px;
+        }
+        .nav-btn {
+          // display: none;
+          ul {
+            @include nav;
+            right: -50vw;
+
+            li {
+              margin: 0;
+              text-align: center;
+              width: 100%;
+              button {
+                width: 100%;
+              }
+            }
+          }
+        }
+        .nav-btn.active {
+          display: block;
+          ul {
+            @include nav;
+            right: 0;
+
+            li {
+              margin: 0;
+              text-align: center;
+              width: 100%;
+              button {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.slide-show-container {
+  width: 100vw;
+  height: 280px;
+  // margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .slide-show-container {
+    height: 200px;
+  }
+}
+.home-container {
+  margin: 0 20px;
+}
+.titles {
+  margin: 8px;
+  text-align: end;
+  font-size: 25px;
+}
+@media screen and (max-width: 600px) {
+ 
+    .titles {
+      margin: 12px;
+      text-align: end;
+      font-size: 15px;
+   
+  }
+}
+
+

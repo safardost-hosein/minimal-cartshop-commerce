@@ -1,0 +1,53 @@
+@import '../../partials/config';
+.btn.btn--primary{
+    background-color:$-color-accent;
+    border: none;
+    outline: none;
+    font-size: 10px !important;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background-color:lighten($-color-accent, 5%);
+        transition: all 0.5s ease;
+    }
+}
+.btn.btn--sideNav{
+    background-color:$-color-primary;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    &:hover{
+        transform: scale(0.95);
+    }
+}
+@media screen and (max-width:900px){
+    .btn.btn--primary,
+    .btn.btn--sideNav{
+        font-size: 10px;
+    } 
+}
+.btn.btn-cards{
+    background-color: transparent;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    padding:0 3px ;
+}
+.btn.btn-footer{
+    border: none;
+    outline: none;
+    background-color:$-color-primary ;
+    width: fit-content;
+    margin: 0 5px;
+    i{
+        font-size: 25px;
+    }
+}

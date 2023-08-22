@@ -1,0 +1,49 @@
+// .page-best-selling {
+//   margin: 20px auto;
+//   display: grid;
+//   grid-template-columns: repeat(3, auto);
+//   place-items: center;
+// }
+// @media screen and (max-width: 600px) {
+//   .page-best-selling {
+//     grid-template-columns: repeat(2, 0.8fr);
+//     .cards--offer {
+//       width: 45vw;
+//       height: 200px;
+//       gap: 10px;
+//       .img {
+//         min-height: 60px;
+//         button {
+//           width: 25px;
+//           height: 25px;
+//           i {
+//             font-size: 15px;
+//           }
+//         }
+//       }
+//       .info {
+//         h3 {
+//           font-size: 2vw;
+//         }
+//         font-size: 2vw;
+//         span {
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           img {
+//             width: 8px;
+//           }
+//         }
+//       }
+//       h3 {
+//         font-size: 1.5vw;
+//       }
+//       .btn {
+//         button {
+//           font-size: 5px !important;
+//           margin-bottom: 5px;
+//         }
+//       }
+//     }
+//   }
+// }

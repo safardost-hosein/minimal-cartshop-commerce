@@ -1,0 +1,14 @@
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    place-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 600px) {
+  .category-container {
+        grid-template-columns: repeat(3, auto);
+        .cards--category{
+            width: 25vw;
+        }
+  }
+}
