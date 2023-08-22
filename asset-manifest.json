@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/minimal-cartshop-commerce/static/css/main.c3c59539.css",
+    "main.js": "/minimal-cartshop-commerce/static/js/main.d8231005.js",
+    "static/media/Sans.ttf": "/minimal-cartshop-commerce/static/media/Sans.b405362106aecf6bb79b.ttf",
+    "static/media/cart.png": "/minimal-cartshop-commerce/static/media/cart.98e52db6429e00d2a157.png",
+    "static/media/slider2.png": "/minimal-cartshop-commerce/static/media/slider2.04097f91e6b7bfcf984d.png",
+    "static/media/slider1.png": "/minimal-cartshop-commerce/static/media/slider1.0aab2ab78004b55996b7.png",
+    "static/media/slider3.png": "/minimal-cartshop-commerce/static/media/slider3.3cfa629e4f34649291ec.png",
+    "static/media/_Logo.svg": "/minimal-cartshop-commerce/static/media/63e86ab4c21faa7bc0bd90dd_Logo.ae5fe04c914adb7a2d88d552de81891c.svg",
+    "static/media/show-more.svg": "/minimal-cartshop-commerce/static/media/show-more.67b505ec516fb465cac078f8089aeb43.svg",
+    "static/media/toman.svg": "/minimal-cartshop-commerce/static/media/toman.cbc4448cdc5320ab3cc33ed372db6b00.svg",
+    "index.html": "/minimal-cartshop-commerce/index.html",
+    "static/media/user.svg": "/minimal-cartshop-commerce/static/media/user.ad8b11bd43362bdfba1e07a851f9d268.svg",
+    "main.c3c59539.css.map": "/minimal-cartshop-commerce/static/css/main.c3c59539.css.map",
+    "main.d8231005.js.map": "/minimal-cartshop-commerce/static/js/main.d8231005.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3c59539.css",
+    "static/js/main.d8231005.js"
+  ]
+}
